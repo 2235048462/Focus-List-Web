@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>专注清单</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/material_blue.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>专注清单</h1>
+            <p class="subtitle">保持专注，提高效率</p>
+        </header>
+
+        <div class="timer-section">
+            <div class="timer-display">
+                <span id="minutes">25</span>:<span id="seconds">00</span>
+            </div>
+            <div class="timer-controls">
+                <button id="startTimer" class="btn primary">开始</button>
+                <button id="pauseTimer" class="btn secondary" disabled>暂停</button>
+                <button id="resetTimer" class="btn secondary">重置</button>
+            </div>
+        </div>
+
+        <div class="task-section">
+            <div class="task-input">
+                <div class="date-picker-container">
+                    <input type="text" id="taskDate" placeholder="选择日期" readonly>
+                </div>
+                <input type="text" id="taskInput" placeholder="添加新任务...">
+                <button id="addTask" class="btn primary">添加</button>
+            </div>
+            <div class="task-categories">
+                <div class="task-category">
+                    <h3>今日任务 <span id="todayCount" class="task-count">0</span></h3>
+                    <div class="task-list" id="todayTaskList"></div>
+                </div>
+                <div class="task-category">
+                    <h3>未来任务 <span id="futureCount" class="task-count">0</span></h3>
+                    <div class="task-list" id="futureTaskList"></div>
+                </div>
+                <div class="task-category">
+                    <h3>已完成任务 <span id="completedCount" class="task-count">0</span></h3>
+                    <div class="task-list" id="completedTaskList"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-section">
+            <div class="stat-item">
+                <span class="stat-label">今日完成任务</span>
+                <span id="completedTasks" class="stat-value">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">专注时间</span>
+                <span id="focusTime" class="stat-value">0分钟</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">总任务数</span>
+                <span id="totalTasks" class="stat-value">0</span>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/zh.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
