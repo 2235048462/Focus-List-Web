@@ -1,5 +1,30 @@
-<<<<<<< HEAD
-# -
-=======
-ä¸“æ³¨æ¸…å•ç½‘é¡µç‰ˆ
->>>>>>> origin/master
+# Focus List (×¨×¢Çåµ¥)
+
+Ò»¸ö¼òµ¥¶øÇ¿´óµÄÈÎÎñ¹ÜÀíÓ¦ÓÃ£¬°ïÖúÄã±£³Ö×¨×¢²¢Ìá¸ßÐ§ÂÊ¡£
+
+## ¹¦ÄÜÌØµã
+
+- ´´½¨ºÍ¹ÜÀíÈÎÎñ
+- 25·ÖÖÓ×¨×¢¼ÆÊ±Æ÷
+- ÈÎÎñ·ÖÀà£¨½ñÈÕ¡¢Î´À´¡¢ÒÑÍê³É£©
+- ±¾µØÊý¾Ý´æ´¢
+- ÏìÓ¦Ê½Éè¼Æ
+
+## ¼¼ÊõÕ»
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- LocalStorage
+- Flatpickr (ÈÕÆÚÑ¡ÔñÆ÷)
+- Font Awesome (Í¼±ê)
+
+## ±¾µØ¿ª·¢
+
+1. ¿ËÂ¡ÏîÄ¿
+2. Ê¹ÓÃ±¾µØ·þÎñÆ÷ÔËÐÐÏîÄ¿£¨ÀýÈç Live Server£©
+3. ÔÚä¯ÀÀÆ÷ÖÐ·ÃÎÊ `http://localhost:5500`
+
+## ÔÚÏßÑÝÊ¾
+
+·ÃÎÊ [Focus List](https://focus-list.vercel.app) ²é¿´ÔÚÏßÑÝÊ¾¡£ 
