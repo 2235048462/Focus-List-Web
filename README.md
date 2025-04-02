@@ -1,30 +1,30 @@
-# Focus List (רע�嵥)
+# Focus List (专注清单)
 
-һ���򵥶�ǿ����������Ӧ�ã������㱣��רע�����Ч�ʡ�
+一个简单而强大的任务管理应用，帮助你保持专注并提高效率。
 
-## �����ص�
+## 功能特点
 
-- �����͹�������
-- 25����רע��ʱ��
-- ������ࣨ���ա�δ��������ɣ�
-- �������ݴ洢
-- ��Ӧʽ���
+- 创建和管理任务
+- 25分钟专注计时器
+- 任务分类（今日、未来、已完成）
+- 本地数据存储
+- 响应式设计
 
-## ����ջ
+## 技术栈
 
 - HTML5
 - CSS3
 - JavaScript (ES6+)
 - LocalStorage
-- Flatpickr (����ѡ����)
-- Font Awesome (ͼ��)
+- Flatpickr (日期选择器)
+- Font Awesome (图标)
 
-## ���ؿ���
+## 本地开发
 
-1. ��¡��Ŀ
-2. ʹ�ñ��ط�����������Ŀ������ Live Server��
-3. ��������з��� `http://localhost:5500`
+1. 克隆项目
+2. 使用本地服务器运行项目（例如 Live Server）
+3. 在浏览器中访问 `http://localhost:5500`
 
-## ������ʾ
+## 在线演示
 
-���� [Focus List](https://focus-list.vercel.app) �鿴������ʾ�� 
+访问 [Focus List](https://focus-list.vercel.app) 查看在线演示。 
